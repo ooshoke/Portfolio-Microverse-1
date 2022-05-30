@@ -47,4 +47,8 @@ html,body{
         height: 50px;
         margin-left: 16px;
     }
+    .button1:active{
+        background-color: #FFFFFF;
+        color: #1A2236;
+    }
 }

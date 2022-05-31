@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 632px;
+    width: 320px;
   }
 
   .toolbar {
@@ -75,6 +76,7 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 1fr 6fr 6fr 6fr 6fr 6fr 6fr;
     height: 2134px;
+    width: 320px;
   }
 
   .item {
@@ -174,6 +176,7 @@ body {
     grid-template-rows: 289px 289px 289px 289px;
     height: 1217px;
     row-gap: 16px;
+    width: 320px;
   }
 
   .about {
@@ -183,16 +186,22 @@ body {
   .languages {
     grid-row: 2;
     background-color: #1c528a;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 
   .frameworks {
     grid-row: 3;
     background-color: #e2505c;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 
   .skills {
     grid-row: 4;
     background-color: #febf52;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 
   .about-entry {
@@ -225,7 +234,7 @@ body {
     width: 102px;
     height: 102px;
     margin-top: -54px;
-    margin-left: 222px;
+    margin-left: 186px;
   }
 
   .back-frame {

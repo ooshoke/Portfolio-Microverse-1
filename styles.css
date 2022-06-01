@@ -2,7 +2,12 @@ html,
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
+
 
 @media only screen and (min-width: 320px) {
   .flexcontainer {

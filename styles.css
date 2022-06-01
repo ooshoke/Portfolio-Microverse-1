@@ -141,6 +141,7 @@ body {
     color: #1a2236;
     justify-content: space-between;
     padding-left: 20px;
+    padding-top: 16px;
     padding-right: 25px;
     margin-bottom: 20px;
   }
@@ -165,7 +166,19 @@ body {
     width: 178px;
     height: 44px;
     margin-left: 20px;
+    margin-bottom: 20px;
     border: 1px solid #fff;
+  }
+
+  .view-project:hover {
+    background-color: #fff;
+    color: #1a2236;
+  }
+
+  .view-project:active {
+    background-color: #fff;
+    color: #1a2236;
+    border-width: 2px;
   }
 
   .text {

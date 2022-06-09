@@ -8,6 +8,10 @@ body {
   align-items: center;
 }
 
+.desktop{
+  display: none;
+}
+
 .flexcontainer {
   display: flex;
   flex-direction: column;
@@ -386,4 +390,83 @@ body {
 .pointer-img {
   padding-left: 16px;
   margin-top: -4px;
+}
+
+@media screen and (min-width: 768px) {
+  html,
+body {
+  margin: 0;
+  padding: 0;
+  display: initial;  
+  width: 100%;
+}
+
+body{height: 4852px;}
+
+  .mobile{
+    display: none;
+  }
+
+  .desktop{
+    display: initial;
+  }
+
+  .flexcontainer{
+    width: 100%;
+    display: initial;
+  }
+
+  .toolbar{
+    width: 100%;
+  }
+  
+  .menu{
+    width: 100%;
+    margin-right: 0%;
+    margin-top: 0%;
+    display: flex;
+    height: 2.06%;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0.5px 0px #DDDFE6;
+  }
+
+  .desktop-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 37.1875%;
+    margin-right: 37.1875%;
+    margin-top: 38px;
+  }
+
+  .desktop-menu a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #1a2236;
+    text-decoration: none;
+  }
+
+  .desktop-menu a:hover{
+    text-decoration: underline #1a2236 2px;
+  }
+
+  .intro-text{
+    margin-top: 3.9571%;
+    margin-left: 11.111%;
+    width: 33.33%;    
+  }
+
+  .desk-img-1{
+    width: 48.75%;
+    float: right;
+    margin-top: -28%;
+  }
+
+  .desk-img-2{
+    width: 12.153%;
+    margin-left: 39.098%;
+  }
 }

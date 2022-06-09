@@ -13,18 +13,33 @@
 <body>
     <div class="flexcontainer">
         <header class="toolbar">
-            <img src="img/image_geometry_1.svg" alt="">
-            <nav class="menu"><img src="img/ic_menu.svg" alt=""></nav>
+            <img src="img/image_geometry_1.svg" alt="" class="mobile">
+            <nav class="menu">
+                <img src="img/ic_menu.svg" alt="" class="mobile">
+                <div class="desktop desktop-menu">
+                    <a href="#">Hello</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
         </header>
 
         <section class="flexcontainer">
-            <h1 class="topic">Okolo <br> Oshoke</h1>
-            <p class="text1">
-                Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
-                If you like what you see and have a project you need coded, don’t hesitate and contact me.
+            <div class="intro-text">
+                <h1 class="topic">Okolo <br> Oshoke</h1>
+                <p class="text1">
+                    Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
+                    If you like what you see and have a project you need coded, don’t hesitate and contact me.
             </p>
-            <button type="button" class="button1">Start collaboration</button>
-            <img src="img/image_geometry_2.svg" alt="">
+            <button type="button" class="button1">Start collaboration</button>            
+            </div>
+            <div class="desktop">
+                <img src="img/image-geometry-desktop_1.svg" alt="" class="desk-img-1">
+                <img src="img/image_dots_1.svg" alt="" class="desk-img-2">
+            </div>
+            <img src="img/image_geometry_2.svg" alt="" class="mobile">
+            
         </section>
     </div>
     <section class="gridcontainer works">
@@ -89,6 +104,13 @@
             </ul>
             <button type="button" class="view-project">See this Project &#x2192;</button>
         </div>
+        <div class="desktop">
+            <img src="img/projects-dots-1.svg" alt="">
+            <img src="img/projects-geometry_1.svg" alt="">
+            <img src="img/projects-geometry_2.svg" alt="">
+            <img src="img/projects-geometry_3.svg" alt="">
+            <img src="img/projects-geometry_4.svg" alt="">
+        </div>
     </section>
     <section class="gridcontainer-about">
         <div class="about-entry about">
@@ -131,10 +153,16 @@
             </ul>
             <img src="img/skills.svg" alt="" class="back back-frame">
         </div>
+        <div class="desktop">
+            <img src="img/about-dots.svg" alt="">
+        </div>
     </section>
     <section class="contact-form">
         <div class="image">
-            <img src="img/image_geometry_1.svg" alt="">
+            <img src="img/image_geometry_1.svg" alt="" class="mobile">
+        </div>
+        <div class="desktop">
+            <img src="img/contact-geometry_1.svg" alt="">
         </div>
         <h1 class="topic begin">Get Started</h1>
         <p class="text1 begin-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
@@ -177,6 +205,9 @@
             </ul>
             <button type="submit" class="button1">Start collaboration</button>
         </form>
+        <div class="desktop">
+            <img src="img/contact-geometry_2.svg" alt="">
+        </div>
         <footer class="foot">
             <div class="res-link">
                 <a href="#">

@@ -16,6 +16,13 @@ body {
   width: 320px;
 }
 
+.flexdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  width: 320px;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -386,4 +393,8 @@ body {
 .pointer-img {
   padding-left: 16px;
   margin-top: -4px;
+}
+
+.desktop{
+  display: none;
 }

@@ -9,12 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="desktop-styles.css">
 </head>
 <body>
-    <div class="flexcontainer">
+    <div class="flexdiv">
         <header class="toolbar">
-            <img src="img/image_geometry_1.svg" alt="">
-            <nav class="menu"><img src="img/ic_menu.svg" alt=""></nav>
+            <img src="img/image_geometry_1.svg" alt="" class="mobile">
+            <nav class="menu">
+                <img src="img/ic_menu.svg" alt="" class="mobile">
+                <div class="desktop desk-nav">
+                    <a href="#">Hello</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
         </header>
 
         <section class="flexcontainer">
@@ -24,7 +33,8 @@
                 If you like what you see and have a project you need coded, don’t hesitate and contact me.
             </p>
             <button type="button" class="button1">Start collaboration</button>
-            <img src="img/image_geometry_2.svg" alt="">
+            <img src="img/image_geometry_2.svg" alt="" class="mobile">
+            <img src="" alt="desktop-image" class="desktop desk-img-1"> 
         </section>
     </div>
     <section class="gridcontainer works">
@@ -134,7 +144,7 @@
     </section>
     <section class="contact-form">
         <div class="image">
-            <img src="img/image_geometry_1.svg" alt="">
+            <img src="img/image_geometry_1.svg" alt="" class="mobile">
         </div>
         <h1 class="topic begin">Get Started</h1>
         <p class="text1 begin-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 

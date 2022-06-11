@@ -15,6 +15,16 @@ body {
   height: 632px;
   width: 320px;
 }
+.menu {
+  transition: transform(0);
+}
+.menu {
+  transition: transform 1s;
+}
+
+.menu:hover {
+  transform: rotate(360deg);
+}
 
 .toolbar {
   display: flex;
@@ -27,7 +37,7 @@ body {
 }
 
 .topic {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
@@ -38,7 +48,7 @@ body {
 }
 
 .text1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -50,7 +60,7 @@ body {
 }
 
 .button1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -120,7 +130,7 @@ body {
 }
 
 .project-name {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 16px;
@@ -133,7 +143,7 @@ body {
 .project-tools {
   display: flex;
   list-style: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 10.334px;
   line-height: 8px;
@@ -155,7 +165,7 @@ body {
 }
 
 .view-project {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -227,7 +237,7 @@ body {
 }
 
 .entry-name {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 20px;
   line-height: 30px;
@@ -238,7 +248,7 @@ body {
 }
 
 .entry-options {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
@@ -308,7 +318,7 @@ body {
 }
 
 .inp-list label {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -320,7 +330,7 @@ body {
 }
 
 .inp-field::placeholder {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -329,7 +339,7 @@ body {
 }
 
 .text-msg::placeholder {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -368,7 +378,7 @@ body {
 }
 
 .res-link a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;

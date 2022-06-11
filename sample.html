@@ -9,50 +9,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="desk-styles.css">
 </head>
 <body>
-    <div class="flexcontainer desk-grid-1">
-        <header class="toolbar mobile">
-            <img src="img/image_geometry_1.svg" alt="">
-            <nav class="menu"><img src="img/ic_menu.svg" alt=""></nav>
-        </header>
-
-        <header class="desk-head desktop">
-            <nav class="desk-nav">
-                <a href="#" class="desk-nav-link">Hello</a>
-                <a href="#" class="desk-nav-link">Portfolio</a>
-                <a href="#" class="desk-nav-link">About</a>
-                <a href="#" class="desk-nav-link">Contact</a>
+    <div class="flexcontainer">
+        <header class="toolbar">
+            <img src="img/image_geometry_1.svg" alt="" class="mobile">
+            <nav class="menu">
+                <img src="img/ic_menu.svg" alt="" class="mobile">
+                <div class="desktop desktop-menu">
+                    <a href="#">Hello</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
             </nav>
         </header>
 
-        <section class="flexdiv mobile">
-            <h1 class="topic">Okolo <br> Oshoke</h1>
-            <p class="text1">
-                Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
-                If you like what you see and have a project you need coded, don’t hesitate and contact me.
-            </p>
-            <button type="button" class="button1 button-marg">Start collaboration</button>
-            <img src="img/image_geometry_2.svg" alt="">
-        </section>
-
-        <section class="desk-hello desktop">
-            <h1 class="topic">Okolo <br> Oshoke</h1>
-            <p class="text1">
-                Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
-                If you like what you see and have a project you need coded, don’t hesitate and contact me.
+        <section class="flexcontainer">
+            <div class="intro-text">
+                <h1 class="topic">Okolo <br> Oshoke</h1>
+                <p class="text1">
+                    Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
+                    If you like what you see and have a project you need coded, don’t hesitate and contact me.
             </p>
             <button type="button" class="button1">Start collaboration</button>            
+            </div>
+            <div class="desktop">
+                <img src="img/image-geometry-desktop_1.svg" alt="" class="desk-img-1">
+                <img src="img/image_dots_1.svg" alt="" class="desk-img-2">
+            </div>
+            <img src="img/image_geometry_2.svg" alt="" class="mobile">
+            
         </section>
-        <div class="desktop desk-image-1">
-            <img src="img/intro-dots.svg" alt="" class="desk-img-1">            
-        </div>
-        <div class="desktop desk-image-2">
-            <img src="img/image-geometry-desktop_1.svg" alt="" class="desk-img-2">
-        </div>
     </div>
-    <section class="gridcontainer works mobile">
+    <section class="gridcontainer works">
         <h1 class="topic item1">Projects</h1>
         <div class="item item2">
             <img src="img/project_1.jpg" alt="laptop">
@@ -114,48 +104,15 @@
             </ul>
             <button type="button" class="view-project">See this Project &#x2192;</button>
         </div>
-    </section>
-
-    <section class="desktop portfolio">
-        <div class="proj">
-            <h1 class="topic">Projects</h1>
-        </div>
-        <div class="desktop desk-image-3">
-            <img src="img/projects-dots-1.svg" alt="" class="desk-img-3">
-        </div>
-        <div class="desktop project-display-1">
-            <h1>Project name goes </h1>
-        </div>
-        <div class="desktop desk-image-4">
-            <img src="img/desk-image-4.svg" alt="" class="desk-img-4">
-        </div>
-        <div class="desktop desk-image-5">
-            <img src="img/projects-geometry_1.svg" alt="" class="desk-img-5">
-        </div>
-        <div class="desktop desk-image-6">
-            <img src="img/desk-img-6.svg" alt="" class="desk-img-6">
-        </div>
-        <div class="desktop project-display-2">
-            <h1>Project name goes </h1>
-        </div>
-        <div class="desktop desk-image-7">
-            <img src="img/desk-image-7.svg" alt="" class="desk-img-7">
-        </div>
-        <div class="desktop desk-image-8">
-            <img src="img/projects-geometry_2.svg" alt="" class="desk-img-8">
-        </div>
-        <div class="desktop desk-image-9">
-            <img src="img/projects-geometry_3.svg" alt="" class="desk-img-9">
-        </div>
-        <div class="desktop desk-image-10">
-            <img src="img/projects-geometry_4.svg" alt="" class="desk-img-10">
-        </div>
-        <div class="desktop desk-image-11">
-            <img src="img/desk-image-8.svg" alt="" class="desk-img-11">
+        <div class="desktop">
+            <img src="img/projects-dots-1.svg" alt="">
+            <img src="img/projects-geometry_1.svg" alt="">
+            <img src="img/projects-geometry_2.svg" alt="">
+            <img src="img/projects-geometry_3.svg" alt="">
+            <img src="img/projects-geometry_4.svg" alt="">
         </div>
     </section>
-
-    <section class="gridcontainer-about mobile">
+    <section class="gridcontainer-about">
         <div class="about-entry about">
             <h1 class="topic">About</h1>
             <p class="text1 text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
@@ -196,17 +153,16 @@
             </ul>
             <img src="img/skills.svg" alt="" class="back back-frame">
         </div>
+        <div class="desktop">
+            <img src="img/about-dots.svg" alt="">
+        </div>
     </section>
-
-    <section class="desktop desk-about">
-        <div class="desk-entry"></div>
-        <div class="desk-about-div"></div>
-    </section>
-
-
-    <section class="contact-form mobile">
+    <section class="contact-form">
         <div class="image">
-            <img src="img/image_geometry_1.svg" alt="">
+            <img src="img/image_geometry_1.svg" alt="" class="mobile">
+        </div>
+        <div class="desktop">
+            <img src="img/contact-geometry_1.svg" alt="">
         </div>
         <h1 class="topic begin">Get Started</h1>
         <p class="text1 begin-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
@@ -249,84 +205,10 @@
             </ul>
             <button type="submit" class="button1">Start collaboration</button>
         </form>
+        <div class="desktop">
+            <img src="img/contact-geometry_2.svg" alt="">
+        </div>
         <footer class="foot">
-            <div class="res-link">
-                <a href="#">
-                    Get my Resume                    
-                </a>
-                <img src="img/ic_link_teal.svg" alt="pointer-img" class="pointer-img">
-            </div>
-            <div class="image-link">
-                <a href="#">
-                    <img src="img/ic_stackoverflow.svg" alt="img1">
-                </a>
-                <a href="#">
-                    <img src="img/ic_github.svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="img/ic_twitter.svg" alt="img3">
-                </a>
-                <a href="#">
-                    <img src="img/ic_linkedin.svg" alt="img4">
-                </a>
-                <a href="#">
-                    <img src="img/ic_medium.svg" alt="img5">
-                </a>
-                <a href="#">
-                    <img src="img/ic_angellist.svg" alt="img6">
-                </a>
-            </div>
-        </footer>        
-    </section>
-
-    <section class="desktop desk-contact">
-        <div class="desk-image-12">
-            <img src="img/contact-geometry_1.svg" alt="" class="desk-img-12">
-        </div>
-        <div class="desk-form">
-            <form action="https://formspree.io/f/xgedqaad" method="post">
-                <ul class="inp-list">
-                    <li>
-                        <label for="name">Your name</label>
-                        <input 
-                        type="text" 
-                        name="user_name"
-                        class="inp-field" 
-                        id="name" 
-                        maxlength="30"
-                        required
-                        placeholder="Anastasia">
-                    </li>
-                    <li>
-                        <label for="email">Your email</label>
-                        <input 
-                        type="email"
-                        pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
-                        name="user_email"
-                        class="inp-field" 
-                        id="email"                     
-                        maxlength="30"
-                        required>
-                    </li>
-                    <li>
-                        <textarea 
-                        name="user_message"
-                        class="text-msg" 
-                        id="message" 
-                        cols="30" rows="10" 
-                        placeholder="Enter your message here..."
-                        maxlength="500"
-                        required></textarea>
-                    </li>
-                </ul>
-                <button type="submit" class="button1">Start collaboration</button>
-            </form>
-        </div>
-        <div class="desk-image-13">
-            <img src="img/contact-geometry_2.svg" alt="" class="desk-img-13">
-        </div>
-
-        <footer class="desk-foot">
             <div class="res-link">
                 <a href="#">
                     Get my Resume                    
